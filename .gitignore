@@ -1,0 +1,46 @@
+# ROS build artifacts
+build/
+devel/
+install/
+
+# Logs and debug files
+*.log
+*.bag
+*.test
+*.xml
+*.xacro~
+rosout.log
+rosout-*.log
+
+# Catkin tools
+.catkin_tools/
+.catkin_workspace
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+
+# CMake and Makefiles
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Packages
+*.zip
+*.tar.gz
+
+# Temporary files
+*~
+*.bak
+.DS_Store
+Thumbs.db
