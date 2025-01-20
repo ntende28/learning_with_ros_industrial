@@ -3,6 +3,15 @@ build/*
 install/*
 devel/*
 
+# Logs and debug files
+*.log
+*.bag
+*.test
+*.xml
+*.xacro~
+rosout.log
+rosout-*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -116,9 +125,9 @@ env.bak/
 venv.bak/
 
 # Spyder project settings
-.spyderproject
-.spyproject
-.vscode
+.spyderproject/
+.spyproject/
+.vscode/
 
 # Rope project settings
 .ropeproject

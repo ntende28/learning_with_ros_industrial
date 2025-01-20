@@ -1,3 +1,6 @@
 [submodule "fake_ar_publisher"]
 	path = fake_ar_publisher
 	url = https://github.com/jmeyer1292/fake_ar_publisher.git
+[submodule "geometry_tutorials"]
+	path = geometry_tutorials
+	url = https://github.com/ros/geometry_tutorials.git
